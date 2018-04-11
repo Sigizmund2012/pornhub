@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "1",
+  "name": "Pornhub age check remover",
+  "description":
+    "Удаляет всплывающее окно с запросом авторизации через Вконтакте на Pornhub.com",
+  "content_scripts": [
+    {
+      "matches": ["https://www.pornhub.com/*", "https://pornhub.com/*"],
+      "css": ["css/styles.css"]
+    }
+  ]
+}
